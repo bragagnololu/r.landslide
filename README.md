@@ -1,0 +1,2 @@
+# r.landslide
+r.landslide is a free and open source add-on to the open source Geographic Information System (GIS) GRASS software for the mapping of landslide susceptiblity. The tool was developed in Python language and works on the basis of Artificial Neural Networks (ANNs) fed with environmental parameters and landslide databases. The module can be used by natural disaster management bodies and land use planning organs as a support tool for the elaboration of landslide susceptibility maps in an agile and efficient manner.
