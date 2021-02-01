@@ -1,27 +1,50 @@
-#!/usr/bin/env python
-#############################################################
-#
-#  MODULE: r.landslide
-#
-#  AUTHOR(S): Lucimara Bragagnolo -------- lucimarabragagnolo@hotmail.com
-#             Roberto Valmir da Silva --------- roberto.silva@uffs.edu.br
+#!/usr/bin/env python
+
+#############################################################
+
+#
+
+#  MODULE: r.landslide
+
+#
+
+#  AUTHOR(S): Lucimara Bragagnolo -------- lucimarabragagnolo@hotmail.com
+
+#             Roberto Valmir da Silva --------- roberto.silva@uffs.edu.br
+
 #             Jose Mario Vicensi Grzybowski - jose.grzybowski@uffs.edu.br
-#
-#  PURPOSE: Uses r.landslide for identification of areas 
-#           susceptible to landslides
-#
-#  COPYRIGHT: (C) 2019 by the GRASS Development Team
-#
-#  This program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation; either version 2 of the License, or
-#  (at your option) any later version.
-#
-#  This program is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU General Public License for more details.
-#############################################################
+#
+
+#  PURPOSE: Uses r.landslide for identification of areas 
+
+#           susceptible to landslides
+
+#
+
+#  COPYRIGHT: (C) 2019 by the GRASS Development Team
+
+#
+
+#  This program is free software; you can redistribute it and/or modify
+
+#  it under the terms of the GNU General Public License as published by
+
+#  the Free Software Foundation; either version 2 of the License, or
+
+#  (at your option) any later version.
+
+#
+
+#  This program is distributed in the hope that it will be useful,
+
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+
+#  GNU General Public License for more details.
+
+#############################################################
+
 
 
 #%module: r.landslide
@@ -442,7 +465,7 @@ def main():
             
             gscript.message(_("Definitions for batch mode: "))
             gscript.message(_("Hidden neurons: "))
-            gscript.message(hidden)
+            gscript.message(str(hidden))
             gscript.message(_("Number of initial conditions: "))
             gscript.message(trials)
 
